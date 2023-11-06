@@ -1,0 +1,37 @@
+Krav:
+OK    Obligatorisk data måste vara inmatad för att gå vidare
+OK    Övriga valideringar funkar som de ska
+OK    Alla fält går att sätta från automatiska tester
+
+Fältens valideringen är inte komplett och skulle i en verklig applikation behöva utökas. Vilka valideringar skulle du vilja lägga till? Notera detta och lägg gärna till ytterligare tester för det om du har tid över.
+Om formuläret hade varit vår verkliga applikation, vad hade du velat förbättra rent strukturellt för att underlätta och förbättra för testbarheten?
+
+Testideér
+Byta konto
+Rensa formulär
+Tillbakaknapp
+Tabordning
+Enter
+Refrecha sidan
+Typsnitt
+
+Fält:
+    sendKeys med +1 tillåtna tecken
+    sendKeys med null
+    sendKeys med mellanslag
+    sendKeys med Ogiltgt tecken
+    sendKeys med emoji
+
+Förslag på förbättring:
+Användarvänlighet
+Mycket som är upprepande och återkommande
+När en har tomma fält å klickar direkt på nästa, visas bara felmeddelande för det överta fältet
+Felmeddelande i fälten visas inte fören en lämnat fältet
+Fälten saknar max value
+Enter tar en inte till nästa fält
+Vid "från och med" bör kanske "till och med" finnas
+
+
+
+
+

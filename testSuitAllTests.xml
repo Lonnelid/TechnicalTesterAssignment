@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="TestSuitAllTests">
+
+    <test name="sendForm.TestRun" preserve-order="true">
+        <classes>
+            <class name="Minso.test.form.sendForm"/>
+        </classes>
+    </test>
+
+    <test name="errorMessages.TestRun" preserve-order="true">
+        <classes>
+            <class name="Minso.test.form.errorMessages"/>
+        </classes>
+    </test>
+
+</suite>
